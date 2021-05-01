@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:gravity="center"
+        android:id="@+id/heading"
+        android:textSize="35sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:text="@string/signup_form"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/hemail"
+        android:layout_below="@id/heading"
+        android:textSize="25sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="70dp"
+        android:text="@string/email"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="60dp"
+        android:autofillHints="No"
+        android:layout_marginStart="90dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/hpass"
+        android:layout_below="@id/hemail"
+        android:textSize="25sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:text="@string/password"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="@string/enter_your_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hemail"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="140dp"
+        android:inputType="text"
+        tools:ignore="TextFields"
+        android:autofillHints="No" />
+    <Button
+        android:id="@+id/signup"
+        android:layout_below="@id/password"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup" />
+
+
+
+</RelativeLayout>

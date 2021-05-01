@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">signupform firebase</string>
+
+    <string name="Create_new_account">Create New Account</string>
+    <string name="OR">OR</string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="Guest">Guest</string>
+    <string name="LogIn">Log In</string>
+    <string name="Password">Password</string>
+    <string name="UserName">User Name</string>
+    <string name="login">Log In</string>
+    <string name="signup_form">Signup Form</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="signup">signup</string>
+</resources>

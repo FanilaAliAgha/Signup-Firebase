@@ -1,0 +1,22 @@
+<RelativeLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:gravity="center"
+        android:id="@+id/heading"
+        android:textSize="35sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:text="Login Page"/>
+
+
+</RelativeLayout>

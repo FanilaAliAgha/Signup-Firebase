@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444826833867",
+    "project_id": "signupfirebase-41aaa",
+    "storage_bucket": "signupfirebase-41aaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444826833867:android:b441ba891fd26b83611c4e",
+        "android_client_info": {
+          "package_name": "com.example.signupformfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444826833867-2rucrractbqvce71solk3ujo9pb2je0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD8goZgflHBK5USWD2qsWhmeQF3vwOCjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444826833867-2rucrractbqvce71solk3ujo9pb2je0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
